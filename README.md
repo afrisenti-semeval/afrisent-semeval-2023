@@ -6,9 +6,9 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: AfriS
 More information can be found in the shared task website: [ AfriSenti-SemEval 2023 Shared Task 12](https://afrisenti-semeval.github.io)
 
 
-# Trail Data
+# Trial Data
 
-We provide the trail data for the AfriSenti-SemEval 2023 Shared Task 12 for all the languages. Check the [Traildata](README.md) 
+We provide the trail data for the AfriSenti-SemEval 2023 Shared Task 12 for all the languages. Check the [Trialdata](README.md) 
 
 # Training Data
 
