@@ -10,7 +10,12 @@ Competition website: https://codalab.lisn.upsaclay.fr/competitions/7320
 
 # Trial Data
 
-We provide the trail data for the AfriSenti-SemEval 2023 Shared Task 12 for all the languages. Check the [Trialdata](README.md) 
+We provide the trail data for the AfriSenti-SemEval 2023 Shared Task 12 for all the languages. Check the [Trialdata](README.md)
+
+# Training data. 
+
+Please, visit the competition page to get access to the dataset: https://codalab.lisn.upsaclay.fr/competitions/7320. Also, we have [terms and condition](https://codalab.lisn.upsaclay.fr/competitions/7320#learn_the_details-terms_and_conditions) regarding the use of our dataset. 
+
 
 # Training Data
 
@@ -20,7 +25,6 @@ We provide the training data for each sub-task separately.
 - For SubtaskA : Check [SubtaksA](README.md)
 - For SubtaskB : Check [SubtaksB](README.md)
 - For SubtaskC : Check [SubtaksC](README.md)
-
 
 
 
