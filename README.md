@@ -5,6 +5,8 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: AfriS
 
 More information can be found in the shared task website: [ AfriSenti-SemEval 2023 Shared Task 12](https://afrisenti-semeval.github.io)
 
+Competition website: https://codalab.lisn.upsaclay.fr/competitions/7320
+
 
 # Trial Data
 
