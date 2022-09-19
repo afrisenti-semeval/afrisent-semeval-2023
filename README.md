@@ -14,8 +14,7 @@ We provide the trail data for the AfriSenti-SemEval 2023 Shared Task 12 for all 
 
 # Training data. 
 
-Please, visit the competition page to get access to the dataset: https://codalab.lisn.upsaclay.fr/competitions/7320. Also, we have [terms and condition](https://codalab.lisn.upsaclay.fr/competitions/7320#learn_the_details-terms_and_conditions) regarding the use of our dataset. 
-
+Please, visit the competition page to get access to the dataset: https://codalab.lisn.upsaclay.fr/competitions/7320.
 
 # Training Data
 
