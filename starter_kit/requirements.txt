@@ -1,0 +1,11 @@
+pandas
+numpy
+transformers
+torch>=1.3
+scipy
+protobuf
+scikit-learn
+accelerate
+sentencepiece!=0.1.92
+datasets>=1.8.0
+evaluate
