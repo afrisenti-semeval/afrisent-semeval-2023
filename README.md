@@ -8,6 +8,14 @@ More information can be found in the shared task website: [ AfriSenti-SemEval 20
 Competition website: https://codalab.lisn.upsaclay.fr/competitions/7320
 
 
+##
+
+
+[Open in Colab](<a target="_blank" href="https://colab.research.google.com/github/afrisenti-semeval/afrisent-semeval-2023/blob/main/AfriSenti_SemEval_2023_Starter_Notebook.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>)
+
+
 # Trial Data
 
 We provide the trial data for the AfriSenti-SemEval 2023 Shared Task 12 for all the languages. Check the [Trialdata](README.md)
