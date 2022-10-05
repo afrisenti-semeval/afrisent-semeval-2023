@@ -1,7 +1,5 @@
 ## AfriSenti-SemEval 2023 Shared Task 12
 
-![](afrisenti_poster.png)
-
 This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Sentiment Analysis for Low-resource African Languages using Twitter Dataset
 
 More information can be found at the:
@@ -33,6 +31,9 @@ We provide the training and dev set for each task below.
 # Sentiment Lexicon
 
 We provide [sentiment lexicon](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/sentiment_lexicon) in some languages that may be useful for the task. 
+
+![](afrisenti_poster.png)
+
 
 
 ## License
