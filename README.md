@@ -23,7 +23,7 @@ We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval
 
 # Training and Evaluation Data
 
-We provide the training data for each sub-task separately. 
+We provide the training and dev set for each task below. 
 
 
 - For SubtaskA : Check [SubtaksA](README.md)
