@@ -26,9 +26,9 @@ We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval
 We provide the training and dev set for each task below. 
 
 
-- For SubtaskA : Check [SubtaksA](README.md)
-- For SubtaskB : Check [SubtaksB](README.md)
-- For SubtaskC : Check [SubtaksC](README.md)
+- For SubtaskA : Check [SubtaksA](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskA)
+- For SubtaskB : Check [SubtaksB](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskB)
+- For SubtaskC : Check [SubtaksC](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskC)
 
 # Sentiment Lexicon
 
