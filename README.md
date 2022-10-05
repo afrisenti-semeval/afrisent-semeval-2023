@@ -10,7 +10,7 @@ Competition website: https://codalab.lisn.upsaclay.fr/competitions/7320
 
 # Starter kit
 
-We provide a starter kit for the compeition to create a baseline result. You can open the Colab Notebook and run the baseline system. The resultant expirement can be used to submit in codalab to ensure all submission format is clearn 
+We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/starter_kit) for the compeition to create a baseline result. You can open the Colab Notebook and run the baseline system. The resultant expirement can be used to submit in codalab to ensure all submission format is clearn 
 
 
 <a target="_blank" href="https://colab.research.google.com/github/afrisenti-semeval/afrisent-semeval-2023/blob/main/AfriSenti_SemEval_2023_Starter_Notebook.ipynb">
