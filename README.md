@@ -8,7 +8,7 @@ More information can be found in the shared task website: [ AfriSenti-SemEval 20
 Competition website: https://codalab.lisn.upsaclay.fr/competitions/7320
 
 
-## Starter kit
+# Starter kit
 
 We provide a starter kit for the compeition to create a baseline result. You can open the Colab Notebook and run the baseline system. The resultant expirement can be used to submit in codalab to ensure all submission format is clearn 
 
