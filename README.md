@@ -10,7 +10,7 @@ More information can be found at the:
 
 # Starter kit
 
-We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/starter_kit) for the compeition to create a baseline result. You can open the starter kit in Colab Notebook and run the baseline system. The resultant expirement can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition.
+We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/starter_kit) for the compeition to create a baseline result. You can open the starter kit in Colab Notebook and run the baseline system. The resultant expirement can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition. To run the Colab Notebook, fork this repo first and click to open the badge "open on colab" on the forked version. 
 
 
 <a target="_blank" href="https://colab.research.google.com/github/afrisenti-semeval/afrisent-semeval-2023/blob/main/AfriSenti_SemEval_2023_Starter_Notebook.ipynb">
