@@ -34,10 +34,6 @@ We provide the training and dev set for each task below.
 
 We will provide sentiment lexicon in some languages that may be useful for the task. 
 
-# Trial Data
-
-We provide the trial data for the AfriSenti-SemEval 2023 Shared Task 12 for all the languages. Check the [Trialdata](README.md)
-
 
 ## License
 
