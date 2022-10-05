@@ -5,9 +5,9 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Senti
 
 More information can be found at the:
 
-- competition website: https://codalab.lisn.upsaclay.fr/competitions/7320.
+- [competition website](https://codalab.lisn.upsaclay.fr/competitions/7320)
 
-- shared task website: AfriSenti-SemEval 2023 Shared Task 12](https://afrisenti-semeval.github.io)
+- [shared task website: AfriSenti-SemEval 2023 Shared Task 12](https://afrisenti-semeval.github.io)
 
 
 # Starter kit
