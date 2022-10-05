@@ -1,14 +1,20 @@
 ## AfriSenti-SemEval 2023 Shared Task 12
 
+![](afrisenti_poster.png)
 
-This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Sentiment Analysis for Low-resource African Languages using Twitter Dataset
+This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Sentiment Analysis f
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+or Low-resource African Languages using Twitter Dataset
 
 More information can be found at the:
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
 
 - [competition website](https://codalab.lisn.upsaclay.fr/competitions/7320)
 
 - [shared task website: AfriSenti-SemEval 2023 Shared Task 12](https://afrisenti-semeval.github.io)
-
 
 # Starter kit
 
