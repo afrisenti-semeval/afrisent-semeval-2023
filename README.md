@@ -18,10 +18,6 @@ We provide a starter kit for the compeition to create a baseline result. You can
 </a>
 
 
-# Trial Data
-
-We provide the trial data for the AfriSenti-SemEval 2023 Shared Task 12 for all the languages. Check the [Trialdata](README.md)
-
 
 # Training Data
 
@@ -35,6 +31,10 @@ We provide the training data for each sub-task separately.
 # Sentiment Lexicon
 
 We will provide sentiment lexicon in some languages that may be useful for the task. 
+
+# Trial Data
+
+We provide the trial data for the AfriSenti-SemEval 2023 Shared Task 12 for all the languages. Check the [Trialdata](README.md)
 
 
 ## License
