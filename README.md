@@ -36,12 +36,6 @@ We provide the training and dev set for each task below.
 
 We provide [sentiment lexicon](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/sentiment_lexicon) in some languages that may be useful for the task. 
 
-# AfriSenti-SemEval Poster
-
-![](afrisenti_poster.png)
-
-
-
 ## License
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
