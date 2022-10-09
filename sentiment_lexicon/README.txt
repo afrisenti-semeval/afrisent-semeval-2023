@@ -1,5 +1,5 @@
 
-We provide manually annotated sentiment lexicon for the folowing languages: 
+We provide manually created sentiment lexicon for the folowing languages: 
 
 1. Hausa(ha)
 2. Yoruba(yo)
