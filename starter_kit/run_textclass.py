@@ -176,10 +176,14 @@ def main():
     #send_example_telemetry("run_xnli", model_args)
 
     # Setup logging
+    logfile = os.path.join(training_args.logging_dir, "log.log")
     logging.basicConfig(
-        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
-        datefmt="%m/%d/%Y %H:%M:%S",
-        handlers=[logging.StreamHandler(sys.stdout)],
+        format="[%(asctime)s] %(module)20s: %(levelname)8s  -  %(message)s",
+        datefmt="%Y-%d-%m %H:%M:%S",
+        handlers=[
+            logging.StreamHandler(sys.stdout),
+            logging.FileHandler(logfile)
+        ],
     )
 
     log_level = training_args.get_process_log_level()
@@ -217,7 +221,6 @@ def main():
     # In distributed training, the load_dataset function guarantees that only one local process can concurrently
     # download the dataset.
     # Downloading and loading xnli dataset from the hub.
-
 
     if training_args.do_train:
 
