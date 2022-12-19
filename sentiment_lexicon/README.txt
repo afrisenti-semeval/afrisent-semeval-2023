@@ -7,6 +7,7 @@ We provide manually created sentiment lexicon for the folowing languages:
 4. Amharic (coming)
 5. Tigranya (ti)
 6. Oromo (om)
+7. Algerian Arabic
 
 
 We provide automatically translated sentiment lexicon for the folowing languages: 
