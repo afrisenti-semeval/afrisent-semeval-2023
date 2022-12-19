@@ -6,7 +6,7 @@ We provide manually created sentiment lexicon for the folowing languages:
 3. Igbo(ig)
 4. Amharic (coming)
 5. Tigranya (ti)
-6. Oromo (or)
+6. Oromo (om)
 
 
 We provide automatically translated sentiment lexicon for the folowing languages: 
