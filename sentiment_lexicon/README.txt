@@ -10,16 +10,13 @@ We provide manually created sentiment lexicon for the folowing languages:
 7. Algerian Arabic
 8. Darja
 
-
 We provide automatically translated sentiment lexicon for the folowing languages: 
-
-
-1.  
-2. Tiwi (coming)
-3. Mozambiqan Portuguess (coming)
-4. Xitonga (coming)
-5. Kinyarwanda (coming)
-6. Swahili (coming)
+  
+1. Tiwi (coming)
+2. Mozambiqan Portuguess (coming)
+3. Xitonga (coming)
+4. Kinyarwanda (coming)
+5. Swahili (coming)
 
 
 
