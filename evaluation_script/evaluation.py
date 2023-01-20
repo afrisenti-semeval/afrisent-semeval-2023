@@ -1,111 +1,146 @@
 #!/usr/bin/env python
+
+# load required packages
 import sys
-import os.path
-import sklearn.metrics
+import os
+import pandas as pd
+from sklearn.metrics import f1_score, precision_score, recall_score
 
-def check_file(path, correct_number_of_columns):
-    f = open(path, 'r')
-    first_line = f.readlines()[0].split("\t")
-    f.close()
-    if (len(first_line) != correct_number_of_columns):
-        sys.exit('Column format problem.')
-    if (first_line[0].lower() != 'id'):
-        sys.exit('Your submission has no header. Please provide the header as: id[tab]pred_label')
-    
+def createHTML(output_dir, f1, m_f1, precision, m_precision, recall, m_recall):
+	htmlOutputDir = os.path.join(output_dir, "html")
+	if not os.path.exists(htmlOutputDir):
+		os.makedirs(htmlOutputDir)
+	
+	htmlString = f'''<!DOCTYPE html>
+	<html>
+		<head>
+		    <title>Detailed Result</title>
+		</head>
+		<body>
+			<p>
+				Evaluation Result
+			</p>
+			<p>
+                Average (weighted)<br/>
+				Precision: {precision} <br/>
+				Recall: {recall} <br/>
+				F1: {f1} <br/>
+            </p>
+			<p>
+                Average (macro)<br/>
+				Precision: {m_precision} <br/>
+				Recall: {m_recall} <br/>
+				F1: {m_f1} <br/>
+            </p>
+		</body>
+	</html>'''
 
-def evaluate(pred, gold):
-    
-    check_file(pred, 2)
-    check_file(gold, 3)
+	with open(htmlOutputDir+"\\detailed_results.html", "w") as htmlfile:
+	    htmlfile.write(htmlString)
 
-    print('Files format checked successfully')
+sys.stdout.write("Starting scoring program. \n\n") # participants can read these messages in the stdout.txt and errors in the stderr.txt for their submission
 
-    with open(pred, "r") as f:
-        pred_lines = f.readlines()
-    
-    with open(gold, "r") as f:
-        gold_lines = f.readlines()
-    
-    pred_lines = pred_lines[1:]
-    gold_lines = gold_lines[1:]
+# load input and output directories, which are passed as arguments as per the metadata file
+input_dir = sys.argv[1]
+output_dir = sys.argv[2]
 
-    if(len(pred_lines)==len(gold_lines)):       
-        # align tweets ids with gold scores and predictions
-        data_dic={}
-        
-        for line in gold_lines:
-            parts=line.split('\t')
-            if len(parts)==3:
-                data_dic[parts[0]]=[parts[2]]
-            else:
-                sys.exit('Format problem.')
-        
-        for line in pred_lines:
-            parts=line.split('\t')
-            if len(parts)==2:  
-                if parts[0] in data_dic:
-                    try:
-                        data_dic[parts[0]].append(parts[1])
-                    except ValueError:
-                        sys.exit('Cannot append label.')
-                else:
-                    sys.exit('Invalid tweet id. Make sure the submission is correct.')
-            else:
-                sys.exit('Format problem.')
-            
-        
-        # lists storing gold and prediction scores
-        gold_scores=[]
-        pred_scores=[]
-            
-        for id in data_dic:
-            if(len(data_dic[id])==2):
-                gold_scores.append(data_dic[id][0])
-                pred_scores.append(data_dic[id][1])
-                
-            else:
-                sys.exit('Repeated id in test data.')
-      
-        # compute metrics
-        eval_report = sklearn.metrics.classification_report(gold_scores, pred_scores, output_dict=True)
+ref_dir = os.path.join(input_dir, 'ref')
+gold_dir = os.path.join(ref_dir, os.listdir(ref_dir)[0])
 
-        return (eval_report["weighted avg"]["precision"], eval_report["weighted avg"]["recall"], eval_report["weighted avg"]["f1-score"])
-       
-    else:
-        sys.exit('Predictions and gold data have different number of lines.')
-        
+lang = gold_dir.split('/')[-1].split('_')[0]
 
-def main(argv):
-    #https://github.com/Tivix/competition-examples/blob/master/compute_pi/program/evaluate.py
-    # as per the metadata file, input and output directories are the arguments
+if lang.find('gold') != -1:
+    sys.exit('Sorry, the dataset for this task has not been uploaded yet but will be available very soon. Check the competition website later for updates.')
 
-    [input_dir, output_dir] = argv
-    
-    # unzipped submission data is always in the 'res' subdirectory
-    # https://github.com/codalab/codalab-competitions/wiki/User_Building-a-Scoring-Program-for-a-Competition#directory-structure-for-submissions
+submission_dir = os.path.join(input_dir, 'res')
+if not os.path.exists(submission_dir):
+    sys.exit('Could not find submission file {0}, please check the submission file name.'.format(submission_dir))
 
-    ref_dir = os.path.join(input_dir, 'ref')
-    gold_standard = os.path.join(ref_dir, os.listdir(ref_dir)[0])
+# validate submission and gold standard data directories
+if not os.path.isdir(submission_dir):
+    sys.exit("Submission directory doesn't exist")
+if not os.path.isdir(ref_dir):
+    sys.exit("Evaluation data directory  doesn't exist")
 
-    lang = gold_standard.split('/')[-1].split('_')[0]
-    
-    submission_path = os.path.join(input_dir, 'res', 'pred_' + lang + '.tsv')
-    if not os.path.exists(submission_path):
-        sys.exit('Could not find submission file {0}, please check the submission file name.'.format(submission_path))
-    
-    eval_scores = evaluate(submission_path, gold_standard)
-    
-    # the scores for the leaderboard must be in a file named "scores.txt"
-    # https://github.com/codalab/codalab-competitions/wiki/User_Building-a-Scoring-Program-for-a-Competition#directory-structure-for-submissions
-    
-    output_file=open(os.path.join(output_dir, 'scores.txt'),"w")
+# create output directory
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
- 
-    output_file.write("avg_precision:{0}\n".format(eval_scores[0])) 
-    output_file.write("avg_recall:{0}\n".format(eval_scores[1]))
-    output_file.write("avg_f1_score:{0}\n".format(eval_scores[2]))
+sys.stdout.write("File directories are valid. ")
 
-    output_file.close()
-        
-if __name__ == "__main__":
-    main(sys.argv[1:])
+# load submission
+sys.stdout.write(str(os.listdir(submission_dir)))
+sys.stdout.write("\n\n")
+submission_df = pd.read_csv(os.path.join(submission_dir, 'pred_' + lang + '.tsv'), sep='\t') # the first file in the submission zip is expected to be the submission csv
+sys.stdout.write("Loaded submission. \n")
+
+# load gold standard data
+gold_df = pd.read_csv(gold_dir, sep='\t') # the first file in the gold standard zip is expected to be the gold standard csv
+sys.stdout.write("Loaded gold standard data. \n\n")
+
+# validate submission:
+# correct columns exist
+if "ID" not in submission_df.columns:
+    sys.exit('ERROR: Submission is missing ID column, or ensure the name is ID not id.')
+if "label" not in submission_df.columns:
+    sys.exit('ERROR: Submission is missing label column.')
+
+# length matches gold standard data
+if (len(submission_df) != len(gold_df)):
+    sys.exit('ERROR: Number of entries in submission does not match number of entries in gold standard data. Are you submitting to the right task?')
+
+# valid labels
+unique_submission_labels = submission_df['label'].unique()
+unique_gold_labels = gold_df['label'].unique()
+for i in unique_submission_labels:
+    if i not in unique_gold_labels:
+        sys.exit('ERROR: The column label contains invalid label strings. Please see the Submission page for more information.')
+
+
+sys.stdout.write("Submission contains correct column names (ID and label). \n")
+sys.stdout.write("Number of entries in submission matches number of entries in gold standard data. \n\n")
+sys.stdout.write("Predicted labels are all valid strings. \n")
+
+# sort submission and gold standard data by Rewire ID, so that labels match predictions
+submission_df = submission_df.sort_values("ID")
+gold_df = gold_df.sort_values("ID")
+
+sys.stdout.write("Labels in gold standard data: ")
+sys.stdout.write(str(sorted(pd.unique(gold_df.label))))
+sys.stdout.write("\n")
+
+sys.stdout.write("\nLabels in submission: ")
+sys.stdout.write(str(sorted(pd.unique(submission_df.label))))
+sys.stdout.write("\n\n")
+
+# calculate macro F1 score for the submission relative to the gold standard data
+f1 = f1_score(y_true = gold_df["label"], y_pred = submission_df["label"], average="weighted")
+recall = recall_score(y_true = gold_df["label"], y_pred = submission_df["label"], average="weighted")
+precision = precision_score(y_true = gold_df["label"], y_pred = submission_df["label"], average="weighted")
+
+m_f1 = f1_score(y_true = gold_df["label"], y_pred = submission_df["label"], average="macro")
+m_recall = recall_score(y_true = gold_df["label"], y_pred = submission_df["label"], average="macro")
+m_precision = precision_score(y_true = gold_df["label"], y_pred = submission_df["label"], average="macro")
+
+# write macro F1 score to a "scores.txt" file as required by CodaLab
+with open(os.path.join(output_dir, 'scores.txt'), 'w') as output_file:
+    output_file.write("avg_precision:{}\n".format(precision)) 
+    output_file.write("avg_recall:{}\n".format(recall))
+    output_file.write("avg_f1_score:{}\n".format(f1))
+
+    output_file.write("macro_precision:{}\n".format(m_precision))
+    output_file.write("macro_recall:{}\n".format(m_recall))
+    output_file.write("macro_f1_score:{}\n".format(m_f1))
+
+sys.stdout.write("Submission evaluated successfully. \n\n")
+sys.stdout.write("Average (weighted). \n")
+sys.stdout.write("Precision:{}\n".format(precision)) 
+sys.stdout.write("Recall:{}\n".format(recall))
+sys.stdout.write("F1:{}\n\n".format(f1))
+
+sys.stdout.write("Average (macro). \n")
+sys.stdout.write("Precision:{0}\n".format(m_precision))
+sys.stdout.write("Recall:{0}\n".format(m_recall))
+sys.stdout.write("F1:{0}\n".format(m_f1))
+
+createHTML(output_dir, f1, m_f1, precision, m_precision, recall, m_recall)
