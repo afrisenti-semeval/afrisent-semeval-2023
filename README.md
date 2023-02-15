@@ -32,21 +32,6 @@ We provide the training, dev and test set for each task below.
 - For SubtaskB : Check [SubtaksB](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskB)
 - For SubtaskC : Check [SubtaksC](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskC)
 
-### Development Data with Labels
-Development data with labels has been released, check below
-
-- For SubtaskA : Check [SubtaksA](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskA/dev_gold)
-- For SubtaskB : Check [SubtaksB](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskB/dev_gold)
-- For SubtaskC : Check [SubtaksC](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskC/dev_gold)
-
-### Test Data
-
-Test data with labels has been released, check below
-
-- For SubtaskA : Check [SubtaksA](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskA/test_gold)
-- For SubtaskB : Check [SubtaksB](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskB/test_gold)
-- For SubtaskC : Check [SubtaksC](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskC)
-
 # Sentiment Lexicon
 
 We provide [sentiment lexicon](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/sentiment_lexicon) in some languages that may be useful for the task. 
