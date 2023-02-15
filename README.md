@@ -4,8 +4,22 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Senti
 
 
 
+| Language             | Country          |
+|----------------------|------------------|
+| Hausa                | Nigeria          |
+| Yoruba               | Nigeria          |
+| Igbo                 | Nigeria          |
+| Nigerian Pidgin      | Nigeria          |
+| Amharic              | Ethiopia         |
+| Tigrinya             | Ethiopia         |
+| Oromo                | Ethiopia         |
+| Swahili              | Kenya/Tanzania   |
+| Algerian Arabic      | Algeria          |
+| Kinyarwanda          | Rwanda           |
+| Twi                  | Ghana            |
+| Mozambique Portuguese| Mozambique       |
+| Moroccan Arabic/Darija| Morocco          |
 
-<p>In this shared task, we have covered 17 African languages, <a href="https://en.wikipedia.org/wiki/Hausa_language">Hausa</a>, <a href="https://en.wikipedia.org/wiki/Yoruba_language">Yoruba</a>, <a href="https://en.wikipedia.org/wiki/Igbo_language">Igbo</a>, <a href="https://en.wikipedia.org/wiki/Nigerian_Pidgin">Nigerian </a>Pidgin from Nigeria, <a href="https://en.wikipedia.org/wiki/Amharic, and Oromo">Amharic</a>, <a href="https://en.wikipedia.org/wiki/Tigrinya_language">Tigrinya</a>, and <a href="https://en.wikipedia.org/wiki/Oromo_language">Oromo</a> from Ethiopia, <a href="https://en.wikipedia.org/wiki/Swahili_language">Swahili</a> from Kenya and Tanzania, <a href="https://en.wikipedia.org/wiki/Algerian_Arabic">Algerian Arabic</a> dialect from Algeria, <a href="https://en.wikipedia.org/wiki/Kinyarwanda">Kinyarwanda</a> from Rwanda, <a href="https://en.wikipedia.org/wiki/Twi">Twi</a> from Ghana, <a href="https://www.google.com/search?client=safari&amp;rls=en&amp;q=Mozabique+portuguess&amp;ie=UTF-8&amp;oe=UTF-8">Mozambique Portuguese</a> from Mozambique &nbsp;and <a href="https://en.wikipedia.org/wiki/Moroccan_Arabic">Moroccan Arabic/Darija</a> from Morocco.</p>
 
 
 More information can be found at the:
