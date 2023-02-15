@@ -21,7 +21,8 @@ This repo contains the data for the SemEval 2023 Shared Task 12: Sentiment Analy
 | 10  | Swahili     (swa)         | Kenya/Tanzania   |
 | 11  | Tigrinya    (tir)          | Ethiopia         |
 | 12  | Twi        (twi)            | Ghana            |
-| 13  | Yoruba    (yor)            | Nigeria          |
+| 13  | Xithonga        (tso)            | Mozambique          |
+| 14  | Yoruba    (yor)            | Nigeria          |
 
 
 </div>
