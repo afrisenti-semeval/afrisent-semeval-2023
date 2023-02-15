@@ -58,7 +58,7 @@ We provide the training, dev and test set for each task below.
 
 
 <p align="center">
-<img align="center" width="500" src="https://raw.githubusercontent.com/afrisenti-semeval/afrisent-semeval-2023/main/afrisenti_languages.png" width="800"/>
+<img align="center" src="https://raw.githubusercontent.com/afrisenti-semeval/afrisent-semeval-2023/main/afrisenti_languages.png"/>
 </p>
 
 
