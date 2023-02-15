@@ -32,20 +32,6 @@ More information can be found at the:
 
 - [shared task website: AfriSenti-SemEval 2023 Shared Task 12](https://afrisenti-semeval.github.io)
 
-# Starter kit
-
-We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/starter_kit) for the compeition to create a baseline result. You can open the starter kit in Colab Notebook and run the baseline system. The resultant expirement can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition. 
-
-To run the Colab Notebook, fork this repo first and click the badge "open on colab" on the forked version. 
-
-
-- **Task A**: <a target="_blank" href="https://colab.research.google.com/github/afrisenti-semeval/afrisent-semeval-2023/blob/main/AfriSenti_SemEval_2023_Starter_Notebook_Task_A.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
-- **Task B**: <a target="_blank" href="https://colab.research.google.com/github/afrisenti-semeval/afrisent-semeval-2023/blob/main/AfriSenti_SemEval_2023_Starter_Notebook_Task_B.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
 
 # Training and Evaluation Data
 
@@ -65,6 +51,21 @@ We provide the training, dev and test set for each task below.
 # Sentiment Lexicon
 
 We provide [sentiment lexicon](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/sentiment_lexicon) in some languages that may be useful for the task. 
+
+# Starter kit
+
+We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/starter_kit) for the compeition to create a baseline result. You can open the starter kit in Colab Notebook and run the baseline system. The resultant expirement can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition. 
+
+To run the Colab Notebook, fork this repo first and click the badge "open on colab" on the forked version. 
+
+
+- **Task A**: <a target="_blank" href="https://colab.research.google.com/github/afrisenti-semeval/afrisent-semeval-2023/blob/main/AfriSenti_SemEval_2023_Starter_Notebook_Task_A.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+- **Task B**: <a target="_blank" href="https://colab.research.google.com/github/afrisenti-semeval/afrisent-semeval-2023/blob/main/AfriSenti_SemEval_2023_Starter_Notebook_Task_B.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ## License
 
