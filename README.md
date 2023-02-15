@@ -19,7 +19,7 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Senti
 | Kinyarwanda          | Rwanda           |
 | Twi                  | Ghana            |
 | Mozambique Portuguese| Mozambique       |
-| Moroccan Arabic/Darija| Morocco          |
+| Moroccan Arabic/Darija| Morocco         |
 
 </div>
 
