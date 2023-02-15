@@ -2,6 +2,7 @@
 
 This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Sentiment Analysis in African Languages using Twitter Dataset
 
+<div style="text-align:center;">
 
 
 | Language             | Country          |
@@ -19,6 +20,9 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Senti
 | Twi                  | Ghana            |
 | Mozambique Portuguese| Mozambique       |
 | Moroccan Arabic/Darija| Morocco          |
+
+</div>
+
 
 
 
