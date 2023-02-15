@@ -27,7 +27,7 @@ This repo contains the data for the SemEval 2023 Shared Task 12: Sentiment Analy
 
 </div>
 
-If you have used our dataset, please cite the following two papers: AfriSenti task description and AfriSenti dataset paper.
+If you have used our dataset, please cite the following two papers: AfriSenti task description and AfriSenti dataset papers.
 
 ```
 @inproceedings{muhammad-etal-2023-semeval,
@@ -99,7 +99,7 @@ We provide [sentiment lexicon](https://github.com/afrisenti-semeval/afrisent-sem
 
 # Starter kit
 
-We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/starter_kit) for the compeition to create a baseline result. You can open the starter kit in Colab Notebook and run the baseline system. The resultant expirement can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition. 
+We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/starter_kit) for the competition to create a baseline result. You can open the starter kit in Colab Notebook and run the baseline system. The resultant experiment can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition. 
 
 To run the Colab Notebook, fork this repo first and click the badge "open on colab" on the forked version. 
 
