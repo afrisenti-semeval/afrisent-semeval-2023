@@ -56,6 +56,12 @@ We provide the training, dev and test set for each task below.
 - For SubtaskB : Check [SubtaksB](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskB)
 - For SubtaskC : Check [SubtaksC](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskC)
 
+
+<p align="center">
+<img align="center" width="500" src="https://raw.githubusercontent.com/afrisenti-semeval/afrisent-semeval-2023/main/afrisenti_languages.png" width="800"/>
+</p>
+
+
 # Sentiment Lexicon
 
 We provide [sentiment lexicon](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/sentiment_lexicon) in some languages that may be useful for the task. 
