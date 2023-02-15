@@ -27,7 +27,7 @@ This repo contains the data for the SemEval 2023 Shared Task 12: Sentiment Analy
 
 </div>
 
-If you have used our dataset, please cite the following two papers: the AfriSenti task description and the AfriSenti dataset paper.
+If you have used our dataset, please cite the following two papers: AfriSenti task description and AfriSenti dataset paper.
 
 ```
 @inproceedings{muhammad-etal-2023-semeval,
