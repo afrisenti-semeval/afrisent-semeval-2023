@@ -1,4 +1,4 @@
-# AfriSenti-SemEval 2023 Shared Task 12
+# SemEval 2023 Shared Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)
 
 
 This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Sentiment Analysis in African Languages using Twitter Dataset
