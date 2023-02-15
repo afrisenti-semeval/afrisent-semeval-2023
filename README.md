@@ -7,19 +7,19 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Senti
 
 | Language             | Country          |
 |----------------------|------------------|
-| Algerian Arabic      | Algeria          |
-| Amharic              | Ethiopia         |
-| Hausa                | Nigeria          |
-| Igbo                 | Nigeria          |
-| Kinyarwanda          | Rwanda           |
-| Moroccan Arabic/Darija| Morocco          |
-| Mozambique Portuguese| Mozambique       |
-| Nigerian Pidgin      | Nigeria          |
-| Oromo                | Ethiopia         |
-| Swahili              | Kenya/Tanzania   |
-| Tigrinya             | Ethiopia         |
-| Twi                  | Ghana            |
-| Yoruba               | Nigeria          |
+| Algerian Arabic(arq)      | Algeria          |
+| Amharic (ama)              | Ethiopia         |
+| Hausa (hau)                | Nigeria          |
+| Igbo (ibo)                 | Nigeria          |
+| Kinyarwanda (kin)          | Rwanda           |
+| Moroccan Arabic/Darija (ary)| Morocco          |
+| Mozambique Portuguese (pt-MZ)| Mozambique       |
+| Nigerian Pidgin (pcm)     | Nigeria          |
+| Oromo (orm)               | Ethiopia         |
+| Swahili   (swa)           | Kenya/Tanzania   |
+| Tigrinya  (tir)           | Ethiopia         |
+| Twi (twi)                  | Ghana            |
+| Yoruba (yor)              | Nigeria          |
 
 
 </div>
