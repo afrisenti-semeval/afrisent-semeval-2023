@@ -25,7 +25,7 @@ To run the Colab Notebook, fork this repo first and click the badge "open on col
 
 # Training and Evaluation Data
 
-We provide the training and dev set for each task below. 
+We provide the training, dev and test set for each task below. 
 
 
 - For SubtaskA : Check [SubtaksA](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskA)
