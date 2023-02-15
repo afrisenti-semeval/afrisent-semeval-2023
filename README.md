@@ -25,7 +25,7 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Senti
 
 
 <p align="center">
-<img align="center" width="500" src="" width="800"/>
+<img align="center" width="500" src="https://raw.githubusercontent.com/afrisenti-semeval/afrisent-semeval-2023/main/afrisenti_languages.png" width="800"/>
 </p>
 
 
