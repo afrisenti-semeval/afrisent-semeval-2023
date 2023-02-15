@@ -1,0 +1,21 @@
+We will show you anonymized tweets in Algerian Arabic. The tweets can be positive, negative, or neutral. 
+
+
+*Examples*
+
+- الحفلة كانت هايلة is a *positive* sentence, and the adjective هايلة indicates that.
+
+- الحفلة كانت سامطة is a *negative* sentence, and the word سامطة indicates that.
+
+- Factual sentences such as الحفلة كانت قدام الدار are *neutral* sentences.
+
+
+In the same way, we would like you to point us to which word led you to annotate the tweet. Words can be tokens (up to 3 tokens), such as opinion words (e.g., I “love/hate/do not mind”...), adjectives (e.g., nice, okay, awful), or even emojis (e.g., 💌, :-D, :-(, … )
+
+We have also added a comment column where you can share your thoughts, comments, or doubts. 
+
+If you are unsure whether you should annotate the tweet as positive, negative, or neutral, you may choose the label that suits it best and a comment about that in the comment column. 
+
+The annotation of a sarcastic tweet depends on the context. While we acknowledge the lack of context, if you think the tweet is mocking someone (or a group of people), you should label it negative.
+
+*N.B.* Please flag any tweet that sounds offensive or hateful. We will delete them later.
