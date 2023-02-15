@@ -27,9 +27,7 @@ This repo contains the data for the SemEval 2023 Shared Task 12: Sentiment Analy
 
 </div>
 
-If you used our dataset, please cite the following work.
-
-
+If you used our dataset, please cite the following task description paper and dataset paper.
 
 ```
 @inproceedings{muhammad-etal-2023-semeval,
@@ -52,6 +50,25 @@ If you used our dataset, please cite the following work.
 ```
 
 
+```
+@inproceedings{muhammad-etal-2023-semeval,
+  title="{S}em{E}val-2023 Task 12:  Sentiment Analysis for African Languages ({A}fri{S}enti-{S}em{E}val)",
+  author="Muhammad, Shamsuddeen Hassan and
+   Yimam, Seid and 
+   Abdulmumin, Idris and 
+   Ahmad, Ibrahim Sa'id  and 
+   Ousidhoum, Nedjma, and
+   Ayele, Abinew, and 
+   Adelani, David and 
+   Ruder, Sebastian and  
+   Beloucif, Meriem and 
+   Bello, Shehu Bello and 
+   Mohammad, Saif M.",
+  booktitle="Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+  month=jul,
+  year="2023",
+}
+```
 
 # Training and Evaluation Data
 
