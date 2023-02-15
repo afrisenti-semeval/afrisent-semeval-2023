@@ -6,21 +6,22 @@ This repo contains the data for the SemEval 2023 Shared Task 12: Sentiment Analy
 
 <div style="text-align:center;">
 
-| Language             | Country          |
-|----------------------|------------------|
-| Algerian Arabic(arq)      | Algeria          |
-| Amharic (ama)              | Ethiopia         |
-| Hausa (hau)                | Nigeria          |
-| Igbo (ibo)                 | Nigeria          |
-| Kinyarwanda (kin)          | Rwanda           |
-| Moroccan Arabic/Darija (ary)| Morocco          |
-| Mozambique Portuguese (pt-MZ)| Mozambique       |
-| Nigerian Pidgin (pcm)     | Nigeria          |
-| Oromo (orm)               | Ethiopia         |
-| Swahili   (swa)           | Kenya/Tanzania   |
-| Tigrinya  (tir)           | Ethiopia         |
-| Twi (twi)                  | Ghana            |
-| Yoruba (yor)              | Nigeria          |
+
+| No. | Language             | Country          |
+|-----|----------------------|------------------|
+| 1   | Algerian Arabic (arq)      | Algeria          |
+| 2   | Amharic  (ama)                | Ethiopia         |
+| 3   | Hausa   (hau)               | Nigeria          |
+| 4   | Igbo  (ibo)                | Nigeria          |
+| 5   | Kinyarwanda    (kin)        | Rwanda           |
+| 6   | Moroccan Arabic/Darija (ary)| Morocco          |
+| 7   | Mozambique Portuguese (pt-MZ)| Mozambique       |
+| 8   | Nigerian Pidgin  (pcm)     | Nigeria          |
+| 9   | Oromo   (orm)              | Ethiopia         |
+| 10  | Swahili     (swa)         | Kenya/Tanzania   |
+| 11  | Tigrinya    (tir)          | Ethiopia         |
+| 12  | Twi        (twi)            | Ghana            |
+| 13  | Yoruba    (yor)            | Nigeria          |
 
 
 </div>
