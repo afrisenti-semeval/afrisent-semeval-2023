@@ -70,7 +70,7 @@ If you used our dataset, please cite the following task description paper and da
 }
 ```
 
-# Training and Evaluation Data
+# AfriSenti Dataset
 
 We provide the training, dev and test set for each task below. 
 
