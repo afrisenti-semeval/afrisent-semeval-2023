@@ -81,7 +81,7 @@ We provide the training, dev and test set for each task below.
 
 The dataset is also available on HugginFace Datasets(soon)
 
-# Sample Tweets
+# Sample Tweets and Distribution
 
 
 <p align="center">
