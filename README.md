@@ -24,6 +24,10 @@ This repo contains the data for the AfriSenti-SemEval 2023 Shared Task 12: Senti
 </div>
 
 
+<p align="center">
+<img align="center" width="500" src="" width="800"/>
+</p>
+
 
 
 More information can be found at the:
