@@ -3,26 +3,6 @@
 
 This repo contains the data for the SemEval 2023 Shared Task 12: Sentiment Analysis in African Languages (AfriSenti-SemEval). More information can be found at the: [shared task website](https://afrisenti-semeval.github.io) and [competition website](https://codalab.lisn.upsaclay.fr/competitions/7320).
 
-```
-@inproceedings{muhammad-etal-2023-semeval,
-  title="{S}em{E}val-2023 Task 12:  Sentiment Analysis for African Languages ({A}fri{S}enti-{S}em{E}val)",
-  author="Muhammad, Shamsuddeen Hassan and
-   Yimam, Seid and 
-   Abdulmumin, Idris and 
-   Ahmad, Ibrahim Sa'id  and 
-   Ousidhoum, Nedjma, and
-   Ayele, Abinew, and 
-   Adelani, David and 
-   Ruder, Sebastian and  
-   Beloucif, Meriem and 
-   Bello, Shehu Bello and 
-   Mohammad, Saif M.",
-  booktitle="Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
-  month=jul,
-  year="2023",
-}
-```
-
 
 <div style="text-align:center;">
 
