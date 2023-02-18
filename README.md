@@ -1,4 +1,3 @@
-# SemEval 2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)
 
 <p align="center">
   <img align="center" src="images/afrisenti.png" />
