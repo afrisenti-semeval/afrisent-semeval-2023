@@ -102,7 +102,7 @@ The dataset is also available on HugginFace Datasets(soon)
 
 We provide [sentiment lexicon](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/sentiment_lexicon) in some languages that may be useful for the task. 
 
-# Starter kit
+## Shared Task Starter kit
 
 We provide a [starter kit](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/starter_kit) for the competition to create a baseline result. You can open the starter kit in Colab Notebook and run the baseline system. The resultant experiment can be submitted to codalab to ensure all submission format is clear. You can then work on your own system towards the competition. 
 
