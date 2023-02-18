@@ -75,7 +75,7 @@ If you have used our dataset, please cite the following two papers: AfriSenti ta
 }
 ```
 
-# AfriSenti Dataset
+# AfriSenti-SemEval 2023 Shared Task 
 
 We provide the training, dev and test set for each task below. 
 
