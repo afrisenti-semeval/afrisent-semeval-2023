@@ -75,6 +75,8 @@ If you have used our dataset, please cite the following two papers: AfriSenti ta
 }
 ```
 
+# AfriSenti Baseline Expirements
+
 # AfriSenti-SemEval 2023 Shared Task 
 
 We provide the training, dev and test set for each task below. 
@@ -117,7 +119,6 @@ To run the Colab Notebook, fork this repo first and click the badge "open on col
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-# AfriSenti Baseline Expirements
 
 ## License
 
