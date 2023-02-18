@@ -90,11 +90,6 @@ The dataset is also available on HugginFace Datasets(soon)
 
 # Sample Tweets and Distribution
 
-
-<p align="center">
-<img align="center" src="https://raw.githubusercontent.com/afrisenti-semeval/afrisent-semeval-2023/main/images/languages.png"/>
-</p>
-
 <p align="center">
 <img align="center" src="https://raw.githubusercontent.com/afrisenti-semeval/afrisent-semeval-2023/main/afrisenti_languages.png"/>
 </p>
