@@ -1,7 +1,15 @@
 # SemEval 2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)
 
+<p align="center">
+  <img align="center" src="images/afrisenti.png" />
+  
+> This repo contains the data for the SemEval 2023 Shared Task 12: Sentiment Analysis in African Languages (AfriSenti-SemEval). More information can be found at the: [shared task](https://afrisenti-semeval.github.io) and [competition](https://codalab.lisn.upsaclay.fr/competitions/7320) websites.
 
-This repo contains the data for the SemEval 2023 Shared Task 12: Sentiment Analysis in African Languages (AfriSenti-SemEval). More information can be found at the: [shared task](https://afrisenti-semeval.github.io) and [competition](https://codalab.lisn.upsaclay.fr/competitions/7320) websites.
+
+  <h1 align="center"> Twitter Sentiment Dataset for African Langauges</h1>
+</p>
+
+
 
 
 <div style="text-align:center;">
