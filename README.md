@@ -98,7 +98,7 @@ The dataset is also available on HugginFace Datasets(soon)
 </p>
 
 
-# Sentiment Lexicon
+## Sentiment Lexicon
 
 We provide [sentiment lexicon](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/sentiment_lexicon) in some languages that may be useful for the task. 
 
@@ -116,6 +116,8 @@ To run the Colab Notebook, fork this repo first and click the badge "open on col
 - **Task B**: <a target="_blank" href="https://colab.research.google.com/github/afrisenti-semeval/afrisent-semeval-2023/blob/main/AfriSenti_SemEval_2023_Starter_Notebook_Task_B.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+# AfriSenti Baseline Expirements
 
 ## License
 
