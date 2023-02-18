@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img align="center" src="images/afrisenti.png" />
+  <img align="center" src="images/afrisenti-twitter.png" />
   
 > This repository contains data for the SemEval 2023 Shared Task 12: Sentiment Analysis in African Languages (AfriSenti-SemEval). More information can be found at the: [shared task](https://afrisenti-semeval.github.io) and [competition](https://codalab.lisn.upsaclay.fr/competitions/7320) websites.
 
