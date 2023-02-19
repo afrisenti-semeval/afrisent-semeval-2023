@@ -85,7 +85,7 @@ We provide the training, dev and test set for each task below.
 - For SubtaskB : Check [SubtaksB](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskB)
 - For SubtaskC : Check [SubtaksC](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskC)
 
-The dataset is also available on HugginFace Datasets(soon)
+The dataset is also available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment)
 
 # Sample Tweets and Distribution
 
