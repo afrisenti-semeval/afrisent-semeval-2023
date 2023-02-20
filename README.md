@@ -32,7 +32,7 @@
 
 </div>
 
-If you have used our dataset, please cite the following two papers: AfriSenti task description and AfriSenti dataset papers.
+If you have used our dataset, please cite the following two papers: AfriSenti dataset paper and AfriSenti-SemEval task description paper. 
 
 ```
 @inproceedings{Muhammad2023AfriSentiAT,
