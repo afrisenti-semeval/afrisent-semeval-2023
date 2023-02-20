@@ -35,22 +35,10 @@
 If you have used our dataset, please cite the following two papers: AfriSenti task description and AfriSenti dataset papers.
 
 ```
-@inproceedings{muhammad-etal-2023-semeval,
-  title="{S}em{E}val-2023 Task 12:  Sentiment Analysis for African Languages ({A}fri{S}enti-{S}em{E}val)",
-  author="Muhammad, Shamsuddeen Hassan and
-   Yimam, Seid and 
-   Abdulmumin, Idris and 
-   Ahmad, Ibrahim Sa'id  and 
-   Ousidhoum, Nedjma, and
-   Ayele, Abinew, and 
-   Adelani, David and 
-   Ruder, Sebastian and  
-   Beloucif, Meriem and 
-   Bello, Shehu Bello and 
-   Mohammad, Saif M.",
-  booktitle="Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
-  month=jul,
-  year="2023",
+@inproceedings{Muhammad2023AfriSentiAT,
+  title={AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages},
+  author={Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Abinew Ali Ayele and Nedjma Ousidhoum and David Ifeoluwa Adelani and Seid Muhie Yimam and Ibrahim Sa'id Ahmad and Meriem Beloucif and Saif Mohammad and Sebastian Ruder and Oumaima Hourrane and Pavel Brazdil and Felermino D'ario M'ario Ant'onio Ali and Davis Davis and Salomey Osei and Bello Shehu Bello and Falalu Ibrahim and Tajuddeen Gwadabe and Samuel Rutunda and Tadesse Belay and Wendimu Baye Messelle and Hailu Beshada Balcha and Sisay Adugna Chala and Hagos Tesfahun Gebremichael and Bernard Opoku and Steven Arthur},
+  year={2023}
 }
 ```
 
