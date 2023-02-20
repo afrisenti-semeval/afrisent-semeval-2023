@@ -43,27 +43,6 @@ If you have used our dataset, please cite the following two papers: AfriSenti ta
 ```
 
 
-```
-@inproceedings{muhammad-etal-2023-semeval,
-  title="{S}em{E}val-2023 Task 12:  Sentiment Analysis for African Languages ({A}fri{S}enti-{S}em{E}val)",
-  author="Muhammad, Shamsuddeen Hassan and
-   Yimam, Seid and 
-   Abdulmumin, Idris and 
-   Ahmad, Ibrahim Sa'id  and 
-   Ousidhoum, Nedjma, and
-   Ayele, Abinew, and 
-   Adelani, David and 
-   Ruder, Sebastian and  
-   Beloucif, Meriem and 
-   Bello, Shehu Bello and 
-   Mohammad, Saif M.",
-  booktitle="Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
-  month=jul,
-  year="2023",
-}
-```
-
-
 # AfriSenti-SemEval 2023 Shared Task 
 
 We provide the training, dev and test set for each task below. 
