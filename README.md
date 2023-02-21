@@ -62,6 +62,10 @@ If you have used our dataset, please cite the following two papers: AfriSenti da
 }
 ```
 
+# Dataset
+
+AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment) or [data folder](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data)
+
 
 # AfriSenti-SemEval 2023 Shared Task 
 
@@ -71,8 +75,6 @@ We provide the training, dev and test set for each task below.
 - For SubtaskA : Check [SubtaksA](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskA)
 - For SubtaskB : Check [SubtaksB](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskB)
 - For SubtaskC : Check [SubtaksC](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/SubtaskC)
-
-The dataset is also available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment) or [data folder](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data)
 
 # Sample Tweets and Distribution
 
