@@ -37,7 +37,7 @@
 AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment) or [data folder](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data)
 
 
-If you have used our dataset, please cite the following two papers: AfriSenti dataset paper and AfriSenti-SemEval task description paper. 
+If you have used our dataset, please cite the following two papers: [AfriSenti dataset paper](https://arxiv.org/pdf/2302.08956.pdf) and AfriSenti-SemEval task description paper (coming soon). 
 
 ```
 @inproceedings{Muhammad2023AfriSentiAT,
