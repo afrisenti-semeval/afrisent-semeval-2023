@@ -68,6 +68,18 @@ If you have used our dataset, please cite the following two papers: [AfriSenti d
 ```
 
 
+Afrisenti is an extension of NaijaSenti, a paper that explores sentiment analysis for Nigerian languages. If you are interested in learning more about NaijaSenti, you can read it [here](https://arxiv.org/pdf/2201.08277.pdf) and cite use below
+
+```
+@inproceedings{Muhammad2022NaijaSentiAN,
+  title={NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis},
+  author={Shamsuddeen Hassan Muhammad and David Ifeoluwa Adelani and Ibrahim Said Ahmad and Idris Abdulmumin and Bello Shehu Bello and Monojit Choudhury and Chris C. Emezue and Anuoluwapo Aremu and Saheed Abdul and Pavel Brazdil},
+  booktitle={International Conference on Language Resources and Evaluation},
+  year={2022}
+}
+```
+
+
 
 # AfriSenti-SemEval 2023 Shared Task 
 
