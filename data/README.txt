@@ -46,7 +46,7 @@ Contents:
 
 1. Introduction
 
-AfriSenti is an open-source sentiment corpora for African languages and it was used in [AfriSenti-SemEval](https://afrisenti-semeval.github.io) Shared task.
+AfriSenti is an open-source sentiment corpora for African languages and it was used in (AfriSenti-SemEval)[https://afrisenti-semeval.github.io] Shared task.
 
 For more information, visit the project Github page here: https://github.com/afrisenti-semeval/afrisent-semeval-2023
 
