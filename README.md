@@ -40,46 +40,45 @@ AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/s
 If you have used our dataset, please cite the following two papers: [AfriSenti dataset paper](https://arxiv.org/pdf/2302.08956.pdf) and AfriSenti-SemEval task description paper (coming soon). 
 
 ```
-@inproceedings{Muhammad2023AfriSentiAT,
-  title={AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages},
-  author={Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Abinew Ali Ayele and Nedjma Ousidhoum and David Ifeoluwa Adelani and Seid Muhie Yimam and Ibrahim Sa'id Ahmad and Meriem Beloucif and Saif Mohammad and Sebastian Ruder and Oumaima Hourrane and Pavel Brazdil and Felermino D'ario M'ario Ant'onio Ali and Davis Davis and Salomey Osei and Bello Shehu Bello and Falalu Ibrahim and Tajuddeen Gwadabe and Samuel Rutunda and Tadesse Belay and Wendimu Baye Messelle and Hailu Beshada Balcha and Sisay Adugna Chala and Hagos Tesfahun Gebremichael and Bernard Opoku and Steven Arthur},
-  year={2023}
+@inproceedings{muhammadSemEval2023,
+title = {{SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)}},
+author = {Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Seid Muhie Yimam and David Ifeoluwa Adelani and Ibrahim Sa'id Ahmad and Nedjma Ousidhoum and Abinew Ali Ayele and Saif M. Mohammad and Meriem Beloucif and Sebastian Ruder},
+booktitle = {Proceedings of the 17th {{International Workshop}} on {{Semantic Evaluation}} ({{SemEval-2023}})},
+publisher = {{Association for Computational Linguistics}},
+year = {2023}
+}
+
+@misc{muhammad2023afrisenti,
+title={{AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages}},
+author={Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Abinew Ali Ayele and Nedjma Ousidhoum and David Ifeoluwa Adelani and Seid Muhie Yimam and Ibrahim Sa'id Ahmad and Meriem Beloucif and Saif Mohammad and Sebastian Ruder and Oumaima Hourrane and Pavel Brazdil and Felermino Dário Mário António Ali and Davis Davis and Salomey Osei and Bello Shehu Bello and Falalu Ibrahim and Tajuddeen Gwadabe and Samuel Rutunda and Tadesse Belay and Wendimu Baye Messelle and Hailu Beshada Balcha and Sisay Adugna Chala and Hagos Tesfahun Gebremichael and Bernard Opoku and Steven Arthur},
+year={2023},
+doi={10.48550/arXiv.2302.08956},
+url={https://arxiv.org/abs/2302.08956}
+}
+
+@inproceedings{muhammad-etal-2022-naijasenti,
+    title = "{N}aija{S}enti: A {N}igerian {T}witter Sentiment Corpus for Multilingual Sentiment Analysis",
+    author = "Muhammad, Shamsuddeen Hassan  and
+      Adelani, David Ifeoluwa  and
+      Ruder, Sebastian  and
+      Ahmad, Ibrahim Sa{'}id  and
+      Abdulmumin, Idris  and
+      Bello, Bello Shehu  and
+      Choudhury, Monojit  and
+      Emezue, Chris Chinenye  and
+      Abdullahi, Saheed Salahudeen  and
+      Aremu, Anuoluwapo  and
+      Jorge, Al{\'\i}pio  and
+      Brazdil, Pavel",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.63",
+    pages = "590--602",
 }
 ```
-
-```
-@inproceedings{muhammad-etal-2023-semeval,
-  title="{S}em{E}val-2023 Task 12:  Sentiment Analysis for African Languages ({A}fri{S}enti-{S}em{E}val)",
-  author="Muhammad, Shamsuddeen Hassan and
-   Yimam, Seid and 
-   Abdulmumin, Idris and 
-   Ahmad, Ibrahim Sa'id  and 
-   Ousidhoum, Nedjma, and
-   Ayele, Abinew, and 
-   Adelani, David and 
-   Ruder, Sebastian and  
-   Beloucif, Meriem and 
-   Bello, Shehu Bello and 
-   Mohammad, Saif M.",
-  booktitle="Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
-  month=jul,
-  year="2023",
-}
-```
-
-
-Afrisenti is an extension of NaijaSenti, a paper that explores sentiment analysis for Nigerian languages. If you are interested in learning more about NaijaSenti, you can read it [here](https://arxiv.org/pdf/2201.08277.pdf) and cite use below
-
-```
-@inproceedings{Muhammad2022NaijaSentiAN,
-  title={NaijaSenti: A Nigerian Twitter Sentiment Corpus for Multilingual Sentiment Analysis},
-  author={Shamsuddeen Hassan Muhammad and David Ifeoluwa Adelani and Ibrahim Said Ahmad and Idris Abdulmumin and Bello Shehu Bello and Monojit Choudhury and Chris C. Emezue and Anuoluwapo Aremu and Saheed Abdul and Pavel Brazdil},
-  booktitle={International Conference on Language Resources and Evaluation},
-  year={2022}
-}
-```
-
-
 
 # AfriSenti-SemEval 2023 Shared Task 
 
