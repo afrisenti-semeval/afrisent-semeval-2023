@@ -4,30 +4,7 @@
 
 ===========================================================
 
-Contents:
 
-1. Introduction
-2. Data
-4. Contact Information
-5. References
-
------------------------------------------------------------
-
-1. Introduction
-
-AfriSenti is an open-source sentiment corpora for African languages and it was used in [AfriSenti-SemEval](https://afrisenti-semeval.github.io) Shared task.
-
-For more information, visit the project Github page here: https://github.com/afrisenti-semeval/afrisent-semeval-2023
------------------------------------------------------------
-
-2. Contact Information
-
-In case you have any questions regarding AfriSenti, please contact Shamsuddeen Muhammad for further information.
-email: shamsuddeen2004@gmail.com
------------------------------------------------------------
-
-
-4. References
 
 If you plan to use the dataset for research or academic purposes, please cite the following publication. 
 
@@ -59,6 +36,42 @@ url={https://arxiv.org/abs/2302.08956}
       primaryClass={cs.CL}
 }
 
+Contents:
+
+1. Introduction
+2. Languages
+4. Contact Information
+
+-----------------------------------------------------------
+
+1. Introduction
+
+AfriSenti is an open-source sentiment corpora for African languages and it was used in [AfriSenti-SemEval](https://afrisenti-semeval.github.io) Shared task.
+
+For more information, visit the project Github page here: https://github.com/afrisenti-semeval/afrisent-semeval-2023
+
+Languages are:
+
+- Amharic = amh
+- arq = Algerian Arabic
+- ary = Morocan Arabic
+- hau = Hausa
+- ibo = Igbo
+- kin = Kinyarwanda
+- Oromo = Oromo
+- Pcm = Nigeria-Pidgin
+- Por = Mozambican Portuguess
+- Swa = Swahili
+- tso = Xithonga
+- twi = Twitter
+- yor = Yoruba
+
+-----------------------------------------------------------
+
+2. Contact Information
+
+In case you have any questions regarding AfriSenti, please contact Shamsuddeen Muhammad for further information.
+email: shamsuddeen2004@gmail.com
 -----------------------------------------------------------
 
 version 1.0
