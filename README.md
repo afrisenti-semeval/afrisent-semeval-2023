@@ -37,39 +37,28 @@
 AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment) or [data folder](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data)
 
 
-If you have used our dataset, please cite the following two papers: [AfriSenti dataset paper](https://arxiv.org/pdf/2302.08956.pdf) and AfriSenti-SemEval task description paper (coming soon). 
+If you have used our dataset, please cite the following three papers: [AfriSenti](https://arxiv.org/abs/2302.08956) dataset paper, [AfriSenti-SemEval](https://github.com/afrisenti-semeval/afrisent-semeval-2023) task description paper (coming soon), and [NaijaSenti](https://aclanthology.org/2022.lrec-1.63) paper. 
 
 ```
-@inproceedings{muhammadSemEval2023,
-title = {{SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)}},
-author = {Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Seid Muhie Yimam and David Ifeoluwa Adelani and Ibrahim Sa'id Ahmad and Nedjma Ousidhoum and Abinew Ali Ayele and Saif M. Mohammad and Meriem Beloucif and Sebastian Ruder},
-booktitle = {Proceedings of the 17th {{International Workshop}} on {{Semantic Evaluation}} ({{SemEval-2023}})},
-publisher = {{Association for Computational Linguistics}},
-year = {2023}
+@misc{muhammad2023afrisenti,
+    title={{AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages}},
+    author={Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Abinew Ali Ayele and Nedjma Ousidhoum and David Ifeoluwa Adelani and Seid Muhie Yimam and Ibrahim Sa'id Ahmad and Meriem Beloucif and Saif Mohammad and Sebastian Ruder and Oumaima Hourrane and Pavel Brazdil and Felermino Dário Mário António Ali and Davis Davis and Salomey Osei and Bello Shehu Bello and Falalu Ibrahim and Tajuddeen Gwadabe and Samuel Rutunda and Tadesse Belay and Wendimu Baye Messelle and Hailu Beshada Balcha and Sisay Adugna Chala and Hagos Tesfahun Gebremichael and Bernard Opoku and Steven Arthur},
+    year={2023},
+    doi={10.48550/arXiv.2302.08956},
+    url={https://arxiv.org/abs/2302.08956}
 }
 
-@misc{muhammad2023afrisenti,
-title={{AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages}},
-author={Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Abinew Ali Ayele and Nedjma Ousidhoum and David Ifeoluwa Adelani and Seid Muhie Yimam and Ibrahim Sa'id Ahmad and Meriem Beloucif and Saif Mohammad and Sebastian Ruder and Oumaima Hourrane and Pavel Brazdil and Felermino Dário Mário António Ali and Davis Davis and Salomey Osei and Bello Shehu Bello and Falalu Ibrahim and Tajuddeen Gwadabe and Samuel Rutunda and Tadesse Belay and Wendimu Baye Messelle and Hailu Beshada Balcha and Sisay Adugna Chala and Hagos Tesfahun Gebremichael and Bernard Opoku and Steven Arthur},
-year={2023},
-doi={10.48550/arXiv.2302.08956},
-url={https://arxiv.org/abs/2302.08956}
+@inproceedings{muhammadSemEval2023,
+    title = {{SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)}},
+    author = {Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Seid Muhie Yimam and David Ifeoluwa Adelani and Ibrahim Sa'id Ahmad and Nedjma Ousidhoum and Abinew Ali Ayele and Saif M. Mohammad and Meriem Beloucif and Sebastian Ruder},
+    booktitle = {Proceedings of the 17th {{International Workshop}} on {{Semantic Evaluation}} ({{SemEval-2023}})},
+    publisher = {{Association for Computational Linguistics}},
+    year = {2023}
 }
 
 @inproceedings{muhammad-etal-2022-naijasenti,
     title = "{N}aija{S}enti: A {N}igerian {T}witter Sentiment Corpus for Multilingual Sentiment Analysis",
-    author = "Muhammad, Shamsuddeen Hassan  and
-      Adelani, David Ifeoluwa  and
-      Ruder, Sebastian  and
-      Ahmad, Ibrahim Sa{'}id  and
-      Abdulmumin, Idris  and
-      Bello, Bello Shehu  and
-      Choudhury, Monojit  and
-      Emezue, Chris Chinenye  and
-      Abdullahi, Saheed Salahudeen  and
-      Aremu, Anuoluwapo  and
-      Jorge, Al{\'\i}pio  and
-      Brazdil, Pavel",
+    author = "Muhammad, Shamsuddeen Hassan  and Adelani, David Ifeoluwa  and Ruder, Sebastian  and Ahmad, Ibrahim Sa{'}id  and Abdulmumin, Idris  and Bello, Bello Shehu  and Choudhury, Monojit  and Emezue, Chris Chinenye  and Abdullahi, Saheed Salahudeen  and Aremu, Anuoluwapo  and orge, Al{\'\i}pio  and Brazdil, Pavel",
     booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
     month = jun,
     year = "2022",
