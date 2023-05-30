@@ -104,7 +104,7 @@ To run the Colab Notebook, fork this repo first and click the badge "open on col
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-##Funding Acknowledgements
+## Funding Acknowledgements
 
 This prize award for this shared task was generously supported by a grant from Lacuna Fund.
 
