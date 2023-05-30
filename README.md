@@ -106,7 +106,7 @@ To run the Colab Notebook, fork this repo first and click the badge "open on col
 
 ## Funding Acknowledgements
 
-This prize award for this shared task was generously supported by a grant from Lacuna Fund.
+This competition is supported by a grant from Lacuna Fund.
 
 ## License
 
