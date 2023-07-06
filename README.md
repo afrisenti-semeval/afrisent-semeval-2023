@@ -26,20 +26,17 @@
 | 10  | Swahili     (swa)         | Kenya/Tanzania   |
 | 11  | Tigrinya    (tir)          | Ethiopia         |
 | 12  | Twi        (twi)            | Ghana            |
-| 13  | Xithonga        (tso)            | Mozambique          |
+| 13  | Xithonga        (tso)            | Mozambique  |
 | 14  | Yoruba    (yor)            | Nigeria          |
-
 
 </div>
 
 # Dataset
 
-
-
-
 If you have used our dataset, please cite the following three papers: [AfriSenti dataset](https://arxiv.org/abs/2302.08956) , [AfriSenti-SemEval task description paper](https://github.com/afrisenti-semeval/afrisent-semeval-2023), and [NaijaSenti](https://aclanthology.org/2022.lrec-1.63) paper. 
 
 AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment) or [data folder](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data)
+
 
 ```
 @misc{muhammad2023afrisenti,
