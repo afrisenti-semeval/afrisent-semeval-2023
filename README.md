@@ -37,7 +37,7 @@
 
 
 
-If you have used our dataset, please cite the following three papers: [AfriSenti](https://arxiv.org/abs/2302.08956) dataset paper, [AfriSenti-SemEval](https://github.com/afrisenti-semeval/afrisent-semeval-2023) task description paper (coming soon), and [NaijaSenti](https://aclanthology.org/2022.lrec-1.63) paper. 
+If you have used our dataset, please cite the following three papers: [AfriSenti dataset](https://arxiv.org/abs/2302.08956) , [AfriSenti-SemEval task description paper](https://github.com/afrisenti-semeval/afrisent-semeval-2023), and [NaijaSenti](https://aclanthology.org/2022.lrec-1.63) paper. 
 
 AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment) or [data folder](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data)
 
