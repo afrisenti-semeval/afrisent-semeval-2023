@@ -33,7 +33,7 @@
 
 # Dataset
 
-If you have used our dataset, please cite the following three papers: [AfriSenti dataset](https://arxiv.org/abs/2302.08956) , [AfriSenti-SemEval task description paper](https://github.com/afrisenti-semeval/afrisent-semeval-2023), and [NaijaSenti](https://aclanthology.org/2022.lrec-1.63) paper. 
+If you have used our dataset, please cite the following three papers: [AfriSenti dataset](https://arxiv.org/abs/2302.08956) , [AfriSenti-SemEval task description paper](https://github.com/afrisenti-semeval/afrisent-semeval-2023), [NaijaSenti](https://aclanthology.org/2022.lrec-1.63) paper, and [ASAB](https://aclanthology.org/2020.coling-main.91.pdf) paper. 
 
 AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment) or [data folder](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data)
 
@@ -66,6 +66,20 @@ AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/s
     url = "https://aclanthology.org/2022.lrec-1.63",
     pages = "590--602",
 }
+
+@InProceedings{yimametalcoling2020,
+    title = "Exploring {A}mharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models",
+    author = "Yimam, Seid Muhie  and
+      Alemayehu, Hizkiel Mitiku  and
+      Ayele, Abinew  and
+      Biemann, Chris",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    pages = "1048--1060"
+}
+
 ```
 
 # AfriSenti-SemEval 2023 Shared Task 
