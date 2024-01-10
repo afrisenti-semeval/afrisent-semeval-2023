@@ -33,18 +33,53 @@
 
 # Dataset
 
-If you have used our dataset, please cite the following four papers: [AfriSenti dataset](https://arxiv.org/abs/2302.08956) , [AfriSenti-SemEval task description paper](https://aclanthology.org/2023.semeval-1.315.pdf), [NaijaSenti](https://aclanthology.org/2022.lrec-1.63) paper, and [ASAB](https://aclanthology.org/2020.coling-main.91.pdf) paper. 
+If you have used our dataset, please cite the following four papers: [AfriSenti dataset]([https://arxiv.org/abs/2302.08956](https://aclanthology.org/2023.emnlp-main.862.pdf)) , [AfriSenti-SemEval task description paper](https://aclanthology.org/2023.semeval-1.315.pdf), [NaijaSenti](https://aclanthology.org/2022.lrec-1.63) paper, and [ASAB](https://aclanthology.org/2020.coling-main.91.pdf) paper. 
 
 AfriSenti dataset is available on [HugginFace](https://huggingface.co/datasets/shmuhammad/AfriSenti-twitter-sentiment) or [data folder](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data)
 
 
 ```
-@misc{muhammad2023afrisenti,
-    title={{AfriSenti: A Twitter Sentiment Analysis Benchmark for African Languages}},
-    author={Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Abinew Ali Ayele and Nedjma Ousidhoum and David Ifeoluwa Adelani and Seid Muhie Yimam and Ibrahim Sa'id Ahmad and Meriem Beloucif and Saif Mohammad and Sebastian Ruder and Oumaima Hourrane and Pavel Brazdil and Felermino Dário Mário António Ali and Davis Davis and Salomey Osei and Bello Shehu Bello and Falalu Ibrahim and Tajuddeen Gwadabe and Samuel Rutunda and Tadesse Belay and Wendimu Baye Messelle and Hailu Beshada Balcha and Sisay Adugna Chala and Hagos Tesfahun Gebremichael and Bernard Opoku and Steven Arthur},
-    year={2023},
-    doi={10.48550/arXiv.2302.08956},
-    url={https://arxiv.org/abs/2302.08956}
+@inproceedings{muhammad-etal-2023-afrisenti,
+    title = "{A}fri{S}enti: A {T}witter Sentiment Analysis Benchmark for {A}frican Languages",
+    author = "Muhammad, Shamsuddeen  and
+      Abdulmumin, Idris  and
+      Ayele, Abinew  and
+      Ousidhoum, Nedjma  and
+      Adelani, David  and
+      Yimam, Seid  and
+      Ahmad, Ibrahim  and
+      Beloucif, Meriem  and
+      Mohammad, Saif  and
+      Ruder, Sebastian  and
+      Hourrane, Oumaima  and
+      Jorge, Alipio  and
+      Brazdil, Pavel  and
+      Ali, Felermino  and
+      David, Davis  and
+      Osei, Salomey  and
+      Shehu-Bello, Bello  and
+      Lawan, Falalu  and
+      Gwadabe, Tajuddeen  and
+      Rutunda, Samuel  and
+      Belay, Tadesse  and
+      Messelle, Wendimu  and
+      Balcha, Hailu  and
+      Chala, Sisay  and
+      Gebremichael, Hagos  and
+      Opoku, Bernard  and
+      Arthur, Stephen",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.862",
+    doi = "10.18653/v1/2023.emnlp-main.862",
+    pages = "13968--13981",
+    abstract = "Africa is home to over 2,000 languages from over six language families and has the highest linguistic diversity among all continents. This includes 75 languages with at least one million speakers each. Yet, there is little NLP research conducted on African languages. Crucial in enabling such research is the availability of high-quality annotated datasets. In this paper, we introduce AfriSenti, a sentiment analysis benchmark that contains a total of {\textgreater}110,000 tweets in 14 African languages (Amharic, Algerian Arabic, Hausa, Igbo, Kinyarwanda, Moroccan Arabic, Mozambican Portuguese, Nigerian Pidgin, Oromo, Swahili, Tigrinya, Twi, Xitsonga, and Yoruba) from four language families. The tweets were annotated by native speakers and used in the AfriSenti-SemEval shared task (with over 200 participants, see website: https://afrisenti-semeval.github.io). We describe the data collection methodology, annotation process, and the challenges we dealt with when curating each dataset. We further report baseline experiments conducted on the AfriSenti datasets and discuss their usefulness.",
 }
 
 @inproceedings{muhammadSemEval2023,
